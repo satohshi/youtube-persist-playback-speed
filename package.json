@@ -1,0 +1,27 @@
+{
+	"name": "youtube-persist-playback-speed",
+	"version": "0.0.1",
+	"description": "Persist playback rate of YouTube videos",
+	"author": "Satohshi",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/satohshi/youtube-persist-playback-speed"
+	},
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"build": "bun ./scripts/build.ts",
+		"build:watch": "bun ./scripts/build.ts --watch",
+		"serve": "bun ./scripts/serve.ts",
+		"dev": "bun ./scripts/dev.ts",
+		"format": "prettier --write ."
+	},
+	"keywords": [],
+	"license": "MIT",
+	"devDependencies": {
+		"@types/bun": "^1.2.11",
+		"esbuild": "^0.25.3",
+		"prettier": "^3.5.3",
+		"typescript": "^5.8.3"
+	}
+}
